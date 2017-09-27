@@ -1,0 +1,25 @@
+.class_a{color:red;
+    height: 50vh;
+    background-color: black;
+    width: 50vw;
+    background-color: burlywood;
+    margin-left:auto;
+}
+
+.class_a p{color:white;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+.image-background{
+    background-color: grey;
+padding: 50px;
+width:400px;
+    background-image: url(http://www.planwallpaper.com/static/images/background_image_5.jpg);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: bottom;
+
+}
