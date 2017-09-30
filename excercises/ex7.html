@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="page.css">
+    <title>Review</title>
+    <style>
+        .container {
+            display: flex;
+
+            background-color: grey;
+            padding: 10px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            width: 90%;
+            margin: auto;
+        }
+
+        .child {
+            background-color: red;
+            padding: 10px;
+            flex-grow: 1;
+            flex-basis: 100px;
+        
+        
+        }
+
+        .child-big {
+            flex-grow: 2;
+            flex-basis: 300px;
+            background-color: yellow;
+        }
+
+        .my-form {
+            width: 50%;
+            margin: auto
+        }
+        
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="child">
+            <img src="https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg" alt="HTML5 Icon" style="width:128px;height:128px;">
+            <h1>Casey Loh</h1>
+            <a href="lohcasey@gmail.com">Contact Me</a>
+            <p>Sing, Sang , Song</p>
+        </div>
+        <div class="child child-big">
+            <table>
+                <tr>
+                    <th>Contact Info</th>
+                    <th>Links</th>
+                </tr>
+                <tr>
+                    <td><a href="url">link text</a></td>
+                    <td><a href="url">link text</a></td>
+                </tr>
+                <tr>
+                    <td><a href="url">link text</a></td>
+                    <td><a href="url">link text</a></td>
+                </tr>
+            </table>
+            <h2>About Me:</h2>
+            <p>Say say say talk talk talk and talk</p>
+            <hr>
+            <div class="my-form">
+                <form action="/action_page.php" method="post">
+
+                    First name:<br>
+                    <input type="text" value="Mickey">
+                    <br> Last name:<br>
+                    <input type="text" name="lastname" value="Mouse">
+                    <br><br>
+                    <textarea name="message" rows="10" cols="30">Message me</textarea>
+                    <br><br>
+                    <input type="submit" value="Submit Messages">
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
